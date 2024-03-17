@@ -1,0 +1,72 @@
+.h1, .h2 {
+      text-align: center;
+}
+
+
+
+.form-add {
+      display: none;
+      text-align: center;
+      width: 80%;
+      background-color: rgba(255, 255, 0, 0.5);
+      border-radius: 15px;
+      padding: 20px;
+
+      /* display: flex; */
+      /* flex-direction: column; */
+      margin: auto;
+      margin-top: 20px;
+
+}
+
+.form-add label {
+      text-align: center;
+      font-size: 1.5rem;
+      color: black;
+      display: block;
+      margin-top: 20px;
+}
+
+.form-add input {
+      display: block;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      height: 50px;
+      border-radius: 12px;
+      border: 2px solid orangered;
+}
+.form-add button {
+      width: 100%;
+      margin-top: 20px;
+}
+
+.section {
+      width: 80%;
+      margin: auto;
+}
+
+.section__title {
+      text-align: center;
+}
+
+.section__list {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+
+      text-align: center;
+}
+
+.section__item {
+      border-radius: 15px;
+      background-color: rgba(255, 255, 0, 0.5);
+      margin: 20px;
+      list-style-type: none;
+}
+
+.section__image {
+      margin: 20px 0;
+      width: 50%;
+}
